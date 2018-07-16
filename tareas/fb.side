@@ -1,0 +1,56 @@
+{
+  "id": "39024450-c912-4830-a6be-e06e7221890a",
+  "name": "Untitled Project",
+  "url": "https://es-la.facebook.com/",
+  "tests": [{
+    "id": "401a53f5-767d-4df1-ba07-cb19a9945855",
+    "name": "Untitled",
+    "commands": [{
+      "id": "31e42de7-6aca-4800-85ea-1e1616200ab4",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "value": ""
+    }, {
+      "id": "aaf60695-690a-49bb-8895-d46d8aa7f007",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "value": ""
+    }, {
+      "id": "48427aa3-939c-47fe-8e47-52d3da8afe8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "value": ""
+    }, {
+      "id": "474f983d-8f38-4c0b-b4ec-36773c51cb6d",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "id=email",
+      "value": "El correo electrónico o el número de teléfono que ingresaste no coinciden con ninguna cuenta. "
+    }, {
+      "id": "81b9e06f-703d-45e7-8ab8-da2488301a7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "value": ""
+    }, {
+      "id": "32f544ca-d212-4f52-af62-701db13cee6e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "id=pass",
+      "value": "Contraseña"
+    }]
+  }],
+  "suites": [{
+    "id": "91f06956-1393-433b-8a85-58d735c8ed34",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["401a53f5-767d-4df1-ba07-cb19a9945855"]
+  }],
+  "urls": ["https://es-la.facebook.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
